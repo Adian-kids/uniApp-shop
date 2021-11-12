@@ -1,0 +1,151 @@
+12-Sep-2021 15:10:46.799 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+12-Sep-2021 15:10:46.823 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'MyFirstServlet'
+12-Sep-2021 15:10:47.368 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Sep-2021 15:10:47.368 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Sep-2021 15:10:47.369 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@26be0d23')
+12-Sep-2021 15:11:09.341 严重 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/bbs的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常在 [69] 行处理 [/index.jsp] 时发生异常
+
+66:     <!-- 主板块 -->
+67:     <%
+68:     	List listMainBoard = (List)mapBoard.get(0);
+69:     	for(int i = 0; i< listMainBoard.size();i++) {
+70:     		Board mainBoard = (Board)listMainBoard.get(i);
+71:      %>
+72:     <tr>
+
+
+Stacktrace:
+	java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "listMainBoard" is null
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:194)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+12-Sep-2021 15:11:17.701 严重 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/bbs的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常在 [69] 行处理 [/index.jsp] 时发生异常
+
+66:     <!-- 主板块 -->
+67:     <%
+68:     	List listMainBoard = (List)mapBoard.get(0);
+69:     	for(int i = 0; i< listMainBoard.size();i++) {
+70:     		Board mainBoard = (Board)listMainBoard.get(i);
+71:      %>
+72:     <tr>
+
+
+Stacktrace:
+	java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "listMainBoard" is null
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:194)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+12-Sep-2021 15:27:32.677 信息 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'MyFirstServlet'
+12-Sep-2021 15:27:32.680 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Sep-2021 15:27:32.680 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+12-Sep-2021 15:42:54.966 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+12-Sep-2021 15:42:54.989 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'MyFirstServlet'
+12-Sep-2021 15:42:55.995 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+12-Sep-2021 15:42:56.145 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Sep-2021 15:42:56.146 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Sep-2021 15:42:56.146 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@77095c8c')
+12-Sep-2021 15:43:03.010 严重 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/bbs的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常在 [12] 行处理 [/header.jsp] 时发生异常
+
+9: <!--获取论坛基本信息，name,introduction,createDate-->
+10: <%
+11:     forumDaoImpl dao = new forumDaoImpl();
+12:     Forum forum = dao.getForumInfo();
+13: %>
+14: <html>
+15: <head>
+
+
+Stacktrace:
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:870)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:888)
+		at bbs.dao.impl.forumDaoImpl.getForumInfo(forumDaoImpl.java:23)
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:134)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+12-Sep-2021 15:43:21.524 信息 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'MyFirstServlet'
+12-Sep-2021 15:43:21.528 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Sep-2021 15:43:21.529 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

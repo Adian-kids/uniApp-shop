@@ -1,0 +1,5 @@
+{
+	"displayName": "Scss/Sass compilation",
+	"description": "Compile Scss/Sass to Css. Uni-app compile or right-click the file-External Commands Compile",
+	"SASS_COMPILE.name": "Compile Scss/Sass"
+}

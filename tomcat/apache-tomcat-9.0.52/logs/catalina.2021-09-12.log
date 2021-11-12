@@ -1,0 +1,132 @@
+12-Sep-2021 15:10:45.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.52
+12-Sep-2021 15:10:45.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 31 2021 04:12:17 UTC
+12-Sep-2021 15:10:45.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.52.0
+12-Sep-2021 15:10:45.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Linux
+12-Sep-2021 15:10:45.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           5.10.61-1-MANJARO
+12-Sep-2021 15:10:45.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+12-Sep-2021 15:10:45.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /usr/lib/jvm/java-16-openjdk
+12-Sep-2021 15:10:45.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    16.0.2+7
+12-Sep-2021 15:10:45.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+12-Sep-2021 15:10:45.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:10:45.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:10:45.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Sep-2021 15:10:45.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+12-Sep-2021 15:10:45.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+12-Sep-2021 15:10:45.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Sep-2021 15:10:45.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/home/adian/tomcat/apache-tomcat-9.0.52/conf/logging.properties
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:10:45.794 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:10:45.795 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/home/adian/tomcat/apache-tomcat-9.0.52/temp
+12-Sep-2021 15:10:45.799 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+12-Sep-2021 15:10:45.799 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+12-Sep-2021 15:10:45.799 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+12-Sep-2021 15:10:45.802 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+12-Sep-2021 15:10:46.015 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+12-Sep-2021 15:10:46.032 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[416]毫秒内初始化
+12-Sep-2021 15:10:46.060 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+12-Sep-2021 15:10:46.060 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.52]
+12-Sep-2021 15:10:46.065 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/docs]
+12-Sep-2021 15:10:46.226 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/docs]的部署已在[159]毫秒内完成
+12-Sep-2021 15:10:46.226 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/MyFirstServlet]
+12-Sep-2021 15:10:46.798 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+12-Sep-2021 15:10:46.823 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Initializing Servlet 'MyFirstServlet'
+12-Sep-2021 15:10:47.105 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Completed initialization in 281 ms
+12-Sep-2021 15:10:47.105 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/MyFirstServlet]的部署已在[879]毫秒内完成
+12-Sep-2021 15:10:47.106 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/ROOT]
+12-Sep-2021 15:10:47.114 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/ROOT]的部署已在[8]毫秒内完成
+12-Sep-2021 15:10:47.114 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/host-manager]
+12-Sep-2021 15:10:47.131 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/host-manager]的部署已在[17]毫秒内完成
+12-Sep-2021 15:10:47.132 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/manager]
+12-Sep-2021 15:10:47.143 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/manager]的部署已在[11]毫秒内完成
+12-Sep-2021 15:10:47.143 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbs]
+12-Sep-2021 15:10:47.256 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+12-Sep-2021 15:10:47.263 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbs]的部署已在[120]毫秒内完成
+12-Sep-2021 15:10:47.263 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbsf]
+12-Sep-2021 15:10:47.273 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbsf]的部署已在[10]毫秒内完成
+12-Sep-2021 15:10:47.273 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/examples]
+12-Sep-2021 15:10:47.372 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/examples]的部署已在[99]毫秒内完成
+12-Sep-2021 15:10:47.374 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+12-Sep-2021 15:10:47.381 信息 [main] org.apache.catalina.startup.Catalina.start [1348]毫秒后服务器启动
+12-Sep-2021 15:27:22.994 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+12-Sep-2021 15:27:32.661 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+12-Sep-2021 15:27:32.661 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+12-Sep-2021 15:27:32.667 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+12-Sep-2021 15:27:32.675 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [bbs] 注册了JDBC驱动程序 [com.microsoft.sqlserver.jdbc.SQLServerDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+12-Sep-2021 15:27:32.676 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[bbs]创建了一个ThreadLocal，其键类型为[com.microsoft.sqlserver.jdbc.ActivityCorrelator$1]（值为[com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@31b289da]），值类型为[com.microsoft.sqlserver.jdbc.ActivityId]（值为[0b57327b-c813-4c78-8e97-1fd2a6e3e80c-0），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+12-Sep-2021 15:27:32.676 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[bbs]创建了一个ThreadLocal，其键类型为[com.microsoft.sqlserver.jdbc.ActivityCorrelator$1]（值为[com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@31b289da]），值类型为[com.microsoft.sqlserver.jdbc.ActivityId]（值为[9bccfd26-4b57-4d4d-a448-d83b2edb139d-0），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+12-Sep-2021 15:27:32.687 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+12-Sep-2021 15:27:32.714 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+12-Sep-2021 15:42:53.855 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.52
+12-Sep-2021 15:42:53.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 31 2021 04:12:17 UTC
+12-Sep-2021 15:42:53.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.52.0
+12-Sep-2021 15:42:53.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Linux
+12-Sep-2021 15:42:53.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           5.10.61-1-MANJARO
+12-Sep-2021 15:42:53.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+12-Sep-2021 15:42:53.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /usr/lib/jvm/java-16-openjdk
+12-Sep-2021 15:42:53.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    16.0.2+7
+12-Sep-2021 15:42:53.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+12-Sep-2021 15:42:53.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:42:53.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:42:53.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Sep-2021 15:42:53.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+12-Sep-2021 15:42:53.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+12-Sep-2021 15:42:53.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Sep-2021 15:42:53.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Sep-2021 15:42:53.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/home/adian/tomcat/apache-tomcat-9.0.52/conf/logging.properties
+12-Sep-2021 15:42:53.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Sep-2021 15:42:53.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+12-Sep-2021 15:42:53.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Sep-2021 15:42:53.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Sep-2021 15:42:53.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+12-Sep-2021 15:42:53.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:42:53.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/home/adian/tomcat/apache-tomcat-9.0.52
+12-Sep-2021 15:42:53.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/home/adian/tomcat/apache-tomcat-9.0.52/temp
+12-Sep-2021 15:42:53.871 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.31]。
+12-Sep-2021 15:42:53.871 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+12-Sep-2021 15:42:53.871 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+12-Sep-2021 15:42:53.874 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1l  24 Aug 2021]
+12-Sep-2021 15:42:54.105 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+12-Sep-2021 15:42:54.124 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[399]毫秒内初始化
+12-Sep-2021 15:42:54.155 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+12-Sep-2021 15:42:54.155 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.52]
+12-Sep-2021 15:42:54.161 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/docs]
+12-Sep-2021 15:42:54.348 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/docs]的部署已在[185]毫秒内完成
+12-Sep-2021 15:42:54.348 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/MyFirstServlet]
+12-Sep-2021 15:42:54.964 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+12-Sep-2021 15:42:54.989 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Initializing Servlet 'MyFirstServlet'
+12-Sep-2021 15:42:55.296 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Completed initialization in 306 ms
+12-Sep-2021 15:42:55.297 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/MyFirstServlet]的部署已在[949]毫秒内完成
+12-Sep-2021 15:42:55.297 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/ROOT]
+12-Sep-2021 15:42:55.310 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/ROOT]的部署已在[13]毫秒内完成
+12-Sep-2021 15:42:55.310 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/host-manager]
+12-Sep-2021 15:42:55.334 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/host-manager]的部署已在[24]毫秒内完成
+12-Sep-2021 15:42:55.334 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/manager]
+12-Sep-2021 15:42:55.350 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/manager]的部署已在[16]毫秒内完成
+12-Sep-2021 15:42:55.350 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbs]
+12-Sep-2021 15:42:55.993 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+12-Sep-2021 15:42:56.006 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbs]的部署已在[656]毫秒内完成
+12-Sep-2021 15:42:56.007 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbsf]
+12-Sep-2021 15:42:56.023 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/bbsf]的部署已在[15]毫秒内完成
+12-Sep-2021 15:42:56.023 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/adian/tomcat/apache-tomcat-9.0.52/webapps/examples]
+12-Sep-2021 15:42:56.151 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/adian/tomcat/apache-tomcat-9.0.52/webapps/examples]的部署已在[127]毫秒内完成
+12-Sep-2021 15:42:56.154 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+12-Sep-2021 15:42:56.163 信息 [main] org.apache.catalina.startup.Catalina.start [2039]毫秒后服务器启动
+12-Sep-2021 15:43:21.510 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+12-Sep-2021 15:43:21.511 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+12-Sep-2021 15:43:21.512 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+12-Sep-2021 15:43:21.521 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [bbs] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+12-Sep-2021 15:43:21.522 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[bbs]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@16.0.2/java.lang.Object.wait(Native Method)
+ java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16.0.2/java.lang.Thread.run(Thread.java:831)]
+12-Sep-2021 15:43:21.539 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+12-Sep-2021 15:43:21.564 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]

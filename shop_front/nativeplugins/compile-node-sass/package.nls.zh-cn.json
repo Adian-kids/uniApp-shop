@@ -1,0 +1,5 @@
+{
+	"displayName"      : "scss/sass编译",
+	"description"      : "编译scss/sass为css。uni-app编译或对文件右键-外部命令编译时使用",
+	"SASS_COMPILE.name": "编译scss/sass"
+}
